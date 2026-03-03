@@ -1,0 +1,33 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='1080' height='1920' viewBox='0 0 1080 1920'>
+  <rect width='1080' height='1920' fill='#101827'/>
+  <rect x='40' y='40' width='1000' height='1840' rx='36' ry='36' fill='#1B2536'/>
+
+  <text x='100' y='140' fill='#F2F6FF' font-size='44' font-family='Arial' font-weight='700'>Home Loan Actions</text>
+  <text x='100' y='188' fill='#9EB5D7' font-size='28' font-family='Arial'>HDFC Home Loan • 05-03-2026 installment</text>
+
+  <rect x='100' y='240' rx='22' ry='22' width='880' height='190' fill='#243550'/>
+  <text x='140' y='306' fill='#BFD2F1' font-size='30' font-family='Arial'>Balance Left</text>
+  <text x='140' y='386' fill='#FFF' font-size='66' font-family='Arial' font-weight='700'>₹ 18,42,560</text>
+
+  <rect x='100' y='470' rx='20' ry='20' width='880' height='280' fill='#223146'/>
+  <text x='140' y='540' fill='#E7EFFF' font-size='34' font-family='Arial' font-weight='700'>Prepayment</text>
+  <text x='140' y='590' fill='#B3C6E5' font-size='28' font-family='Arial'>Amount: ₹ 2,00,000</text>
+  <text x='140' y='638' fill='#B3C6E5' font-size='28' font-family='Arial'>Date: 14-03-2026</text>
+  <text x='140' y='686' fill='#B3C6E5' font-size='28' font-family='Arial'>Impact: Tenure drops by 14 months</text>
+  <rect x='770' y='668' rx='14' ry='14' width='170' height='44' fill='#1F7A4E'/><text x='814' y='698' fill='#FFF' font-size='24' font-family='Arial'>APPLY</text>
+
+  <rect x='100' y='780' rx='20' ry='20' width='880' height='240' fill='#223146'/>
+  <text x='140' y='845' fill='#E7EFFF' font-size='34' font-family='Arial' font-weight='700'>Interest Rate Change</text>
+  <text x='140' y='895' fill='#B3C6E5' font-size='28' font-family='Arial'>Old: 8.35%  →  New: 8.10%</text>
+  <text x='140' y='943' fill='#B3C6E5' font-size='28' font-family='Arial'>Effective: 01-04-2026</text>
+  <rect x='770' y='928' rx='14' ry='14' width='170' height='44' fill='#1E4E86'/><text x='806' y='958' fill='#FFF' font-size='24' font-family='Arial'>UPDATE</text>
+
+  <rect x='100' y='1050' rx='20' ry='20' width='880' height='230' fill='#2F2A2A'/>
+  <text x='140' y='1115' fill='#F4E7E7' font-size='34' font-family='Arial' font-weight='700'>Loan Closure</text>
+  <text x='140' y='1165' fill='#D6B9B9' font-size='28' font-family='Arial'>Mark closed on: 05-08-2030</text>
+  <text x='140' y='1213' fill='#D6B9B9' font-size='28' font-family='Arial'>This removes loan from active debt total</text>
+  <rect x='760' y='1190' rx='14' ry='14' width='180' height='44' fill='#A63434'/><text x='790' y='1220' fill='#FFF' font-size='24' font-family='Arial'>CLOSE LOAN</text>
+
+  <rect x='100' y='1320' rx='18' ry='18' width='880' height='120' fill='#223146'/>
+  <text x='140' y='1395' fill='#EAF1FF' font-size='32' font-family='Arial' font-weight='700'>Resulting New Debt: ₹ 40,18,900</text>
+</svg>

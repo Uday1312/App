@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#244A78"/>
+      <stop offset="100%" stop-color="#182A45"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3E6FB3"/>
+      <stop offset="100%" stop-color="#274A7E"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1080" height="1920" fill="#E9EEF7"/>
+  <rect x="0" y="0" width="1080" height="620" fill="url(#bg)"/>
+
+  <text x="80" y="120" fill="#FFFFFF" font-family="Arial" font-size="48" font-weight="700">Financials</text>
+  <text x="80" y="175" fill="#CFE0FF" font-family="Arial" font-size="32">Hi Uday • Loan Overview</text>
+
+  <rect x="80" y="230" rx="34" ry="34" width="920" height="300" fill="url(#card)"/>
+  <text x="130" y="300" fill="#CFE0FF" font-family="Arial" font-size="30">Current Loan (Swipe)</text>
+  <text x="130" y="390" fill="#FFFFFF" font-family="Arial" font-size="74" font-weight="700">₹ 8,42,560</text>
+  <text x="130" y="445" fill="#D8E6FF" font-family="Arial" font-size="32">Balance Left</text>
+  <text x="130" y="495" fill="#D8E6FF" font-family="Arial" font-size="28">12.5% • Next Due: 05-03-2026</text>
+  <circle cx="940" cy="500" r="10" fill="#FFFFFF"/>
+  <circle cx="968" cy="500" r="10" fill="#6C8FC5"/>
+  <circle cx="996" cy="500" r="10" fill="#6C8FC5"/>
+
+  <rect x="80" y="580" rx="26" ry="26" width="920" height="120" fill="#FFFFFF"/>
+  <text x="130" y="652" fill="#1F3355" font-family="Arial" font-size="34" font-weight="700">+ Add Loan</text>
+  <text x="780" y="652" fill="#1F3355" font-family="Arial" font-size="32">Upload</text>
+
+  <text x="80" y="770" fill="#1A2740" font-family="Arial" font-size="42" font-weight="700">Payment Schedule</text>
+
+  <rect x="80" y="820" rx="22" ry="22" width="920" height="150" fill="#FFFFFF"/>
+  <text x="120" y="885" fill="#22385E" font-family="Arial" font-size="32" font-weight="700">Installment #16</text>
+  <text x="120" y="930" fill="#4C617F" font-family="Arial" font-size="27">Due: 05-03-2026 • Interest: 12.5%</text>
+  <text x="760" y="895" fill="#22385E" font-family="Arial" font-size="34" font-weight="700">₹21,430</text>
+  <rect x="840" y="915" rx="14" ry="14" width="130" height="40" fill="#1F7A4E"/>
+  <text x="868" y="944" fill="#FFFFFF" font-family="Arial" font-size="24">PAID</text>
+
+  <rect x="80" y="990" rx="22" ry="22" width="920" height="150" fill="#FFFFFF"/>
+  <text x="120" y="1055" fill="#22385E" font-family="Arial" font-size="32" font-weight="700">Installment #17</text>
+  <text x="120" y="1100" fill="#4C617F" font-family="Arial" font-size="27">Due: 05-04-2026 • Interest: 12.5%</text>
+  <text x="760" y="1065" fill="#22385E" font-family="Arial" font-size="34" font-weight="700">₹21,430</text>
+  <rect x="812" y="1085" rx="14" ry="14" width="158" height="40" fill="#B22E2E"/>
+  <text x="838" y="1114" fill="#FFFFFF" font-family="Arial" font-size="24">MARK PAID</text>
+
+  <rect x="80" y="1160" rx="22" ry="22" width="920" height="150" fill="#FFFFFF"/>
+  <text x="120" y="1225" fill="#22385E" font-family="Arial" font-size="32" font-weight="700">Installment #18</text>
+  <text x="120" y="1270" fill="#4C617F" font-family="Arial" font-size="27">Due: 05-05-2026 • Interest: 12.5%</text>
+  <text x="760" y="1235" fill="#22385E" font-family="Arial" font-size="34" font-weight="700">₹21,430</text>
+
+  <rect x="0" y="1780" width="1080" height="140" fill="#0E1726"/>
+  <text x="90" y="1860" fill="#D1DCF1" font-family="Arial" font-size="30">Home</text>
+  <text x="300" y="1860" fill="#D1DCF1" font-family="Arial" font-size="30">History</text>
+  <text x="510" y="1860" fill="#FFFFFF" font-family="Arial" font-size="30" font-weight="700">Financials</text>
+  <text x="770" y="1860" fill="#D1DCF1" font-family="Arial" font-size="30">Policies</text>
+</svg>

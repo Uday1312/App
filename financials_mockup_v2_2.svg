@@ -1,0 +1,33 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='1080' height='1920' viewBox='0 0 1080 1920'>
+  <rect width='1080' height='1920' fill='#F1F5FB'/>
+  <rect x='0' y='0' width='1080' height='560' fill='#263E64'/>
+
+  <text x='70' y='120' fill='#FFF' font-size='46' font-family='Arial' font-weight='700'>Financials</text>
+  <text x='70' y='168' fill='#CFE0FF' font-size='28' font-family='Arial'>Money Lend Overview</text>
+  <text x='70' y='250' fill='#FFF' font-size='74' font-family='Arial' font-weight='700'>₹ 7,86,000</text>
+  <text x='70' y='295' fill='#CFE0FF' font-size='30' font-family='Arial'>Total Outstanding from others</text>
+
+  <rect x='70' y='330' rx='36' ry='36' width='260' height='78' fill='#3A5375'/><text x='145' y='380' fill='#D8E8FF' font-size='34' font-family='Arial' font-weight='700'>Loans</text>
+  <rect x='350' y='330' rx='36' ry='36' width='300' height='78' fill='#FFFFFF'/><text x='404' y='380' fill='#12345D' font-size='34' font-family='Arial' font-weight='700'>Money Lend</text>
+  <rect x='670' y='330' rx='36' ry='36' width='220' height='78' fill='#3A5375'/><text x='738' y='380' fill='#D8E8FF' font-size='34' font-family='Arial' font-weight='700'>Income</text>
+
+  <rect x='70' y='450' rx='30' ry='30' width='940' height='210' fill='#FFFFFF'/>
+  <text x='120' y='520' fill='#1D345A' font-size='36' font-family='Arial' font-weight='700'>Ravi Kumar • Personal Loan Given</text>
+  <text x='120' y='574' fill='#5D7496' font-size='28' font-family='Arial'>Given: ₹3,00,000 • Rate: 10% • Due every 10th</text>
+  <text x='120' y='625' fill='#1D345A' font-size='32' font-family='Arial' font-weight='700'>Outstanding: ₹1,88,000</text>
+
+  <text x='70' y='740' fill='#192B46' font-size='42' font-family='Arial' font-weight='700'>Collection Schedule</text>
+
+  <rect x='70' y='790' rx='22' ry='22' width='940' height='140' fill='#FFFFFF'/>
+  <text x='110' y='850' fill='#21395E' font-size='30' font-family='Arial' font-weight='700'>Ravi Kumar • 10-03-2026</text>
+  <text x='110' y='893' fill='#5B7293' font-size='26' font-family='Arial'>Expected ₹25,000 • Interest ₹1,550</text>
+  <rect x='845' y='838' rx='14' ry='14' width='140' height='40' fill='#1F7A4E'/><text x='876' y='866' fill='#FFF' font-size='24' font-family='Arial'>RECEIVED</text>
+
+  <rect x='70' y='948' rx='22' ry='22' width='940' height='140' fill='#FFFFFF'/>
+  <text x='110' y='1008' fill='#21395E' font-size='30' font-family='Arial' font-weight='700'>Anita Shah • 14-03-2026</text>
+  <text x='110' y='1051' fill='#5B7293' font-size='26' font-family='Arial'>Expected ₹18,000 • Interest ₹900</text>
+  <rect x='836' y='996' rx='14' ry='14' width='149' height='40' fill='#A63434'/><text x='866' y='1024' fill='#FFF' font-size='24' font-family='Arial'>MARK GOT</text>
+
+  <rect x='70' y='1140' rx='20' ry='20' width='940' height='120' fill='#2B3F61'/>
+  <text x='110' y='1215' fill='#FFF' font-size='34' font-family='Arial' font-weight='700'>+ Add Lend Record</text>
+</svg>

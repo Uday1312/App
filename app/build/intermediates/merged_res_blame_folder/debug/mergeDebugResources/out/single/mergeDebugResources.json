@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "com.uday.policytracker.app-debug-74:/drawable_ic_policy_tracker_foreground.xml.flat",
+        "source": "com.uday.policytracker.app-main-76:/drawable/ic_policy_tracker_foreground.xml"
+    },
+    {
+        "merged": "com.uday.policytracker.app-debug-74:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.uday.policytracker.app-main-76:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.uday.policytracker.app-debug-74:/drawable_ic_policy_tracker_monochrome.xml.flat",
+        "source": "com.uday.policytracker.app-main-76:/drawable/ic_policy_tracker_monochrome.xml"
+    },
+    {
+        "merged": "com.uday.policytracker.app-debug-74:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.uday.policytracker.app-main-76:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/uday/.gradle/daemon/9.0.0/com.uday.policytracker.app-debug-74:/xml_file_paths.xml.flat",
+        "source": "/Users/uday/.gradle/daemon/9.0.0/com.uday.policytracker.app-main-76:/xml/file_paths.xml"
+    }
+]
