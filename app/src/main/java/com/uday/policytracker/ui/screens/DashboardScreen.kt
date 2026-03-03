@@ -152,10 +152,18 @@ fun DashboardScreen(
                 }
             }
 
-            item { ServiceGrid(onOpenServiceCategory) }
+            item {
+                ServiceGrid { category ->
+                    when {
+                        category == PolicyCategory.FINANCIALS -> onOpenServiceCategory(category)
+                        category.supportsPolicyRecords -> onCategorySelected(category)
+                        else -> onCategorySelected(null)
+                    }
+                }
+            }
             item {
                 Text(
-                    "Policy Management",
+                    "Policies",
                     modifier = Modifier.padding(horizontal = 16.dp),
                     style = MaterialTheme.typography.titleLarge,
                     fontWeight = FontWeight.Bold
@@ -195,6 +203,18 @@ fun DashboardScreen(
 
             if (uiState.policies.isEmpty()) {
                 item { EmptyState(onAddPolicy) }
+            }
+
+            item {
+                Text(
+                    "Policy Management",
+                    modifier = Modifier.padding(horizontal = 16.dp),
+                    style = MaterialTheme.typography.titleLarge,
+                    fontWeight = FontWeight.Bold
+                )
+            }
+            item {
+                PolicyManagementTabs(onOpenServiceCategory = onOpenServiceCategory)
             }
         }
     }
@@ -622,6 +642,33 @@ private fun CategoryTabs(uiState: DashboardUiState, onCategorySelected: (PolicyC
                 colors = AssistChipDefaults.assistChipColors(
                     containerColor = if (uiState.selectedCategory == category) Color(0xFF1A6A5E) else MaterialTheme.colorScheme.surface,
                     labelColor = if (uiState.selectedCategory == category) Color.White else MaterialTheme.colorScheme.onSurface
+                )
+            )
+        }
+    }
+}
+
+@Composable
+private fun PolicyManagementTabs(
+    onOpenServiceCategory: (PolicyCategory) -> Unit
+) {
+    val folderCategories = remember {
+        PolicyCategory.entries.filter { it != PolicyCategory.FINANCIALS }
+    }
+    Row(
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(horizontal = 16.dp)
+            .horizontalScroll(rememberScrollState()),
+        horizontalArrangement = Arrangement.spacedBy(8.dp)
+    ) {
+        folderCategories.forEach { category ->
+            AssistChip(
+                onClick = { onOpenServiceCategory(category) },
+                label = { Text(category.label) },
+                colors = AssistChipDefaults.assistChipColors(
+                    containerColor = MaterialTheme.colorScheme.surface,
+                    labelColor = MaterialTheme.colorScheme.onSurface
                 )
             )
         }
